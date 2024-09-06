@@ -6,7 +6,7 @@
 #SBATCH --ntasks=1   # number of processor cores (i.e. tasks)
 #SBATCH --nodes=1   # number of nodes
 #SBATCH -J "rplhighpass-sort"   # job name
-#SBATCH --cpus-per-task=5   # number of CPUs for this task
+#SBATCH --cpus-per-task=1   # number of CPUs for this task
 
 ## /SBATCH -p general # partition (queue)
 #SBATCH -o rplhighpass-sort-slurm.%N.%j.out # STDOUT
