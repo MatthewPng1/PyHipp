@@ -42,6 +42,10 @@ with lock:
     if pmode == RESET_MODE:
         # create a list (named clist) of nevns environments with the
         # prefix envprefix
+<<<<<<< HEAD:myenvlist.py
+=======
+        # add code here
+>>>>>>> origin/main:envlist.py
         clist = [f"{envprefix}{i}" for i in range(int(nenvs))]
     else:
         # load hickle file
@@ -51,7 +55,11 @@ with lock:
             # append item to end of list
             # add code here
             clist.append(env)
+<<<<<<< HEAD:myenvlist.py
         else:
+=======
+        else:    
+>>>>>>> origin/main:envlist.py
             # get and remove env from clist
             # add code here
             # return env name
